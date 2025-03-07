@@ -1,0 +1,244 @@
+{
+  "categories": [
+    {
+      "name": "Pizza",
+      "items": [
+        {
+          "name": "Margherita",
+          "description": "Tomatsås och ost",
+          "price": 114
+        },
+        {
+          "name": "Afos",
+          "description": "Tomatsås, ost, tonfisk och lök",
+          "price": 119
+        },
+        {
+          "name": "Capricciosa",
+          "description": "Tomatsås, ost, skinka och champinjoner",
+          "price": 119
+        },
+        {
+          "name": "Vesuvio",
+          "description": "Tomatsås, ost och skinka",
+          "price": 119
+        },
+        {
+          "name": "Frutti Di Mare",
+          "description": "Tomatsås, ost, räkor och musslor",
+          "price": 124
+        },
+        {
+          "name": "Hassos",
+          "description": "Tomatsås, ost, köttfärs, lök och paprika",
+          "price": 124
+        },
+        {
+          "name": "Peppos",
+          "description": "Tomatsås, ost, salami, lök och pepperoni",
+          "price": 124
+        },
+        {
+          "name": "Bussola",
+          "description": "Tomatsås, ost, skinka och räkor",
+          "price": 124
+        },
+        {
+          "name": "Hawaii",
+          "description": "Tomatsås, ost, skinka och ananas",
+          "price": 124
+        },
+        {
+          "name": "Quattro Stagioni",
+          "description": "Tomatsås, ost, skinka, räkor, champinjoner, kronärtskockahjärta och oliver",
+          "price": 130
+        },
+        {
+          "name": "Romana",
+          "description": "Tomatsås, ost, skinka, räkor och champinjoner",
+          "price": 130
+        },
+        {
+          "name": "Hawanna",
+          "description": "Tomatsås, ost, skinka, räkor och ananas",
+          "price": 130
+        },
+        {
+          "name": "Mamma Mia",
+          "description": "Tomatsås, ost, skinka, räkor, champinjoner, lök och paprika",
+          "price": 130
+        },
+        {
+          "name": "Tropicana",
+          "description": "Tomatsås, ost, skinka, ananas, banan och curry",
+          "price": 130
+        },
+        {
+          "name": "Galloway",
+          "description": "Tomatsås, ost, bacon, lök och ägg",
+          "price": 130
+        },
+        {
+          "name": "Mexicana",
+          "description": "Tomatsås, ost, köttfärs, tacosås och jalapeno",
+          "price": 130
+        },
+        {
+          "name": "Hot Peppar",
+          "description": "Tomatsås, ost, skinka, salami, lök, pepperoni och starksås",
+          "price": 130
+        },
+        {
+          "name": "Kebabpizza",
+          "description": "Tomatsås, ost, kebab, lök, tomater, pepperoni och orientsås",
+          "price": 130
+        },
+        {
+          "name": "Kycklingpizza",
+          "description": "Tomatsås, ost, kyckling, tomater, ananas och curry",
+          "price": 130
+        },
+        {
+          "name": "Ciao Ciao",
+          "description": "Halvinbakad. Tomatsås, ost, oxfilé, champinjoner och bearnaisesås",
+          "price": 149
+        },
+        {
+          "name": "Acapulco",
+          "description": "Tomatsås, ost, oxfilé, lök, champinjoner, jalapeno, tacomix och bearnaisesås",
+          "price": 149
+        },
+        {
+          "name": "Alanya",
+          "description": "Tomatsås, ost, oxfilé, lök, pepperoni, tomater, ädelost och bearnaisesås",
+          "price": 149
+        },
+        {
+          "name": "Ronyas",
+          "description": "Halvinbakad. Tomatsås, ost, oxfilé, tomater, lök, champinjoner och bearnaisesås",
+          "price": 149
+        }
+      ]
+    },
+    {
+      "name": "Inbakade pizzor",
+      "items": [
+        {
+          "name": "Calzone",
+          "description": "Tomatsås, ost och skinka",
+          "price": 124
+        },
+        {
+          "name": "Calzonchino",
+          "description": "Tomatsås, ost, skinka och champinjoner",
+          "price": 129
+        },
+        {
+          "name": "Calzone Hawaii",
+          "description": "Tomatsås, ost, skinka och ananas",
+          "price": 129
+        },
+        {
+          "name": "Calzone Kebab",
+          "description": "Tomatsås, ost, kebab, lök, pepperoni och orientsås",
+          "price": 140
+        },
+        {
+          "name": "Calzone Special",
+          "description": "Tomatsås, ost, skinka, räkor och champinjoner",
+          "price": 140
+        }
+      ]
+    },
+    {
+      "name": "Grill",
+      "items": [
+        {
+          "name": "Schnitzel",
+          "description": "Serveras med pommes frites och persiljesmör",
+          "price": 169
+        },
+        {
+          "name": "Grillbiff",
+          "description": "Serveras med pommes frites och persiljesmör",
+          "price": 163
+        },
+        {
+          "name": "Lövbit",
+          "description": "Serveras med pommes frites och persiljesmör",
+          "price": 163
+        },
+        {
+          "name": "Rödspätta",
+          "description": "Serveras med kokt potatis och remouladsås",
+          "price": 169
+        },
+        {
+          "name": "Entrecôte",
+          "description": "Serveras med stekt potatis och bearnarnaiseås",
+          "price": 309
+        },
+        {
+          "name": "Urfa Special",
+          "description": "Kebab serveras med grillad tomat",
+          "price": 230
+        },
+        {
+          "name": "Adana Kebab",
+          "description": "Lammfärsspett",
+          "price": 220
+        },
+        {
+          "name": "Shish Kebab",
+          "description": "Köttfärsspett serveras med ris",
+          "price": 220
+        },
+        {
+          "name": "Grillmix",
+          "description": "Välj tillbehör i nästa steg",
+          "price": 309
+        },
+        {
+          "name": "Lammracks",
+          "description": "Kotlett serveras med ris och tzatziki",
+          "price": 309
+        },
+        {
+          "name": "Big Cheese 90g",
+          "description": "Serveras med tillbehör",
+          "price": 94
+        },
+        {
+          "name": "Kycklingspett",
+          "description": "Välj tillbehör i nästa steg",
+          "price": 199
+        },
+        {
+          "name": "Super Star 150g",
+          "description": "150g",
+          "price": 99
+        },
+        {
+          "name": "Kyckling Nuggets",
+          "description": "Krispiga bitar av kyckling som är en favorit bland både unga och gamla",
+          "price": 99
+        },
+        {
+          "name": "Skrovmål",
+          "description": "Hamburgare, pommes frites och valfri dryck",
+          "price": 134
+        },
+        {
+          "name": "Parisare 110g",
+          "description": "Vår variant på hamburgare som består av en tjock korv som skärs i centimetertjocka skivor, grillas och serveras mellan hamburgerbröd",
+          "price": 99
+        },
+        {
+          "name": "Parisermål",
+          "description": "Parisare 110g serveras med pommes frites och valfri dryck",
+          "price": 134
+        }
+      ]
+    }
+  ]
+}

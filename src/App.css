@@ -1,0 +1,458 @@
+/* App.css */
+:root {
+    --blue: #0072BB;
+    --blue-d: #004975;
+    --white: #ffffff;
+    --white-o: rgba(255,255,255,0.3);
+    --black: #121212;
+    --black-o: rgba(18,18,18,0.5);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scrollbar-color: rgb(175, 175, 175) lightgray;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Playfair Display SC", serif;
+}
+
+section {
+    display: block;
+    padding-right: 20vw;
+}
+
+h1 {
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding-top: 5vh;
+    font-size: 20pt;
+    margin-left: 20vw;
+}
+
+.titel {
+    color: white;
+    margin-left: 0;
+}
+
+h2 {
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding-top: 2vh;
+    font-size: 16pt;
+    margin-left: 20vw;
+}
+
+.meny {
+    font-size: 20pt;
+    padding-top: 5vh;
+}
+
+.days {
+    font-weight: 100;
+}
+
+h3 {
+    color: black;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 16pt;
+    margin-left: 20vw;
+}
+
+.item h3 {
+    margin-left: 0;
+}
+
+p {
+    color: black;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+    font-style: italic;
+    padding-bottom: 1vh;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: transparent;
+    z-index: 1000;
+}
+
+.price {
+    font-weight: bold;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 1vh;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    color: white;
+    background-color: var(--black-o);
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+li {
+    list-style-type: none;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+img {
+    margin: 0;
+    margin-left: 20vw;
+    padding: 0;
+    padding-right: 20vw;
+    width: 100%;
+    max-width: 100%;
+}
+
+.banner-top {
+    background-color: var(--blue);
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-top h1 {
+    padding-top: 1vh;
+}
+
+.banner-bot {
+    background-color: var(--blue);
+    height: 24vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section {
+    margin: 0;
+    padding: 0;
+    width: 20vw;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 12pt;
+}
+
+.item {
+    margin-left: 20vw;
+    border-top: 2px solid black;
+}
+
+.showmore {
+    margin-left: 20vw;
+    border-top: 2px solid black;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.blue {
+    background-color: var(--blue);
+    margin-left: 20vw;
+    margin-top: 2vh;
+}
+
+.blue p {
+    color: white;
+}
+
+.github-logo {
+    margin: 0;
+    padding: 0;
+    width: 5vw;
+}
+
+#nav-top {
+    display: none;
+}
+
+.hamburger {
+    margin: 0;
+    padding: 0;
+    font-size: 16pt;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.showmore button.more {
+    width: auto;
+    padding: 5px 20px;
+    background: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    font-weight: 100;
+    font-size: 12pt;
+    font-style: normal;
+    font-family: "Playfair Display SC", serif;
+    margin: 10px 0;
+}
+
+.showmore button:hover {
+    background-color: transparent;
+}
+
+.item {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Adjust spacing for öppettider section */
+#öppettider {
+    margin-top: -20px;
+}
+
+
+/* Add these CSS rules to your App.css file */
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: fixed;
+    top: 8px;
+    left: 10px;
+    z-index: 1001;
+    background-color: var(--black-o);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+}
+
+/* Video Toggle Button */
+.video-toggle {
+    position: absolute;
+    /* top: 50%; */
+    right: 20px;
+    transform: translateY(-75%);
+    z-index: 1001;
+    background-color: var(--black-o);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "Playfair Display SC", serif;
+}
+
+.video-toggle:hover {
+    /* transform: scale(1.05); */
+    background-color: rgba(18,18,18,0.7);
+}
+
+/* Dark Mode style for the video toggle */
+body.dark-mode .video-toggle {
+    background-color: var(--white-o);
+    color: white;
+}
+
+body.dark-mode .video-toggle:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: var(--black);
+}
+
+body.dark-mode section {
+    background-color: var(--black);
+    color: #e0e0e0;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p {
+    color: #e0e0e0;
+}
+
+body.dark-mode .banner-top,
+body.dark-mode .banner-bot {
+    background-color: var(--blue-d);
+}
+
+body.dark-mode .item,
+body.dark-mode .showmore {
+    border-top: 2px solid #555;
+}
+
+body.dark-mode ul,
+body.dark-mode .theme-toggle {
+    background-color: var(--white-o);
+}
+
+body.dark-mode .blue {
+    background-color: var(--blue-d);
+}
+
+body.dark-mode .showmore button.more {
+    border: 1px solid #555;
+    color: #e0e0e0;
+}
+
+/* Light Mode (default) - specifically setting these to ensure proper theme switching */
+body.light-mode {
+    background-color: var(--blue);
+}
+
+body.light-mode section {
+    background-color: var(--white);
+}
+
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode h3,
+body.light-mode p {
+    color: black;
+}
+
+body.light-mode .titel,
+body.light-mode .footer {
+    color: white;
+}
+
+body.light-mode .blue p {
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-top,
+    video,
+    source {
+        display: none;
+    }
+    .nav-top.nav-mobile-open {
+        display: block;
+    }
+    nav {
+        height: fit-content;
+    }
+
+    body.light-mode nav {
+        background-color: var(--blue);
+    }
+    body.dark-mode nav {
+        background-color: var(--blue-d);
+    }
+
+    .video-toggle {
+        display: none;
+    }
+
+    .nav-top .mobile-menu {
+        position: static;
+        flex-direction: column;
+        transform: none;
+        width: 100%;
+        background: none;
+        padding: 0;
+    }
+
+    .nav-top .mobile-menu li {
+        margin: 1rem 0;
+    }
+
+    #nav-top {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 1vh;
+        padding-right: 3vw;
+        position: relative;
+        z-index: 1001;
+    }
+
+    .hamburger {
+        padding: 0.5rem;
+    }
+
+    .banner-bot {
+        flex-direction: column;
+        height: fit-content;
+        margin-bottom: 5vh;
+    }
+
+    .footer-section {
+        margin-top: 5vh;
+    }
+}
+
+@media print {
+    body {
+        display: block;
+        color: black;
+        text-decoration: none;
+    }
+    .video-toggle,
+    .theme-toggle,
+    .showmore,
+    #hitta-hit,
+    #nav-top,
+    .nav-top,
+    img,
+    video,
+    source {
+        display: none;
+    }
+}
