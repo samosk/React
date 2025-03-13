@@ -1,11 +1,11 @@
 // App.js
 import './App.css';
 import { useState, useEffect } from 'react';
-import { MenuItem } from './MenuComponents.js';
-import MobileNav from './MobileNav';
-import config from './config';
-import ThemeToggle from './ThemeToggle.js';
-import VideoToggle from './VideoToggle';
+import { MenuItem } from './MenuComponents.jsx';
+import MobileNav from './MobileNav.jsx';
+import config from './config.js';
+import ThemeToggle from './ThemeToggle.jsx';
+import VideoToggle from './VideoToggle.jsx';
 // import PopupButton from './PopupButton.js';
 
 const MenuSection = ({ category }) => {
